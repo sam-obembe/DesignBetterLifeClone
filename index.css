@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Roboto:400,700');
+
+*{
+  padding:0;
+  margin: 0;
+  border: 0;
+  font-family: sans-serif;
+}
+
+p{
+  font-family: 'Roboto',sans-serif;
+}
+
+h1{
+  font-size: 50px;
+  font-family: 'Roboto',sans-serif
+}
+
+h2{
+  font-size: 35px;
+  font-family: 'Roboto',sans-serif
+}
+
+h3{
+  font-family: 'Roboto',sans-serif;
+  font-size: 25px;
+}
+
+.links{
+  background-color: blue;
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.navigation{
+  display:flex;
+  justify-content: space-around;
+  background-color: blue;
+}
+
+.subheadings{
+  height: 100vh;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.subheadings p{
+  width: 40%;
+  text-align: center;
+  line-height: 200%;
+}
+
+.mainTop{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.mainTop p{
+  width: 40%;
+}
+
+.Book{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 95%;
+  margin-top: 10%;
+}
+
+.Book button{
+  background-color: teal;
+  color: white;
+}
+
+.textContent{
+  width: 30%;
+}
+
+.textContent p{
+  line-height: 200%;
+}
+
+.authorsSection{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.authors{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+button{
+  background: white;
+  text-align: center;
+  text-transform: uppercase;
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  color: blue;
+  font-family: 'Comfortaa',cursive;
+  font-weight: bold;
+}
